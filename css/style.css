@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: "montserrat",sans-serif;
+  font-family: 'Fredericka the Great', cursive;
   box-sizing: border-box;
 }
 
@@ -19,21 +19,23 @@
 }
 
 .gallery-section h1{
-  text-align: center;
-  text-transform: uppercase;
+  text-transform: auto;
   color: #333;
+  margin: 40px auto;
+  margin-left: 0.01px;
+  font-size: 60px;
 }
 
-.border{
+/*.border{ 
   width: 180px;
   height: 4px;
   background: #333;
   margin: 60px auto;
-}
+}*/
 
 .gallery-section .gallery{
   display: flex;
-  flex-wrap: wrap-reverse; 
+  flex-wrap: wrap-reverse;
   justify-content: center;
 }
 
