@@ -1,13 +1,17 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Fredericka the Great', cursive;
   box-sizing: border-box;
 }
-
+.nav{
+  font-size: 21px;
+  padding-right: 163px;  
+  font-family: 'Questrial', sans-serif;
+}
 .gallery-section{
   width: 100%;
-  padding: 60px 0;
+  padding: 60px;
+  padding-top: 1px;
   background: #f1f1f1;
 }
 
@@ -19,11 +23,13 @@
 }
 
 .gallery-section h1{
+  font-family: 'Fredericka the Great', cursive;
   text-transform: auto;
   color: #333;
   margin: 40px auto;
   margin-left: 0.01px;
   font-size: 60px;
+  font-weight: bold;
 }
 
 /*.border{ 
@@ -35,8 +41,8 @@
 
 .gallery-section .gallery{
   display: flex;
-  flex-wrap: wrap-reverse; 
-  justify-content: center; 
+  flex-wrap: wrap-reverse;
+  justify-content: center;
 }
 
 .gallery-section .image{
@@ -71,4 +77,8 @@
   .gallery-section .image{
     flex: 100%;
   }
+}
+
+.animetion_gall {
+  animation-duration: 1.5s;
 }
